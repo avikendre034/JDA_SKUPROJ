@@ -64,7 +64,7 @@ JDA_df.head()
 
 JDA_df.to_excel(Path.cwd() / "JDA_Plan_data.xlsx", index=False)
 jda_path =  Path.cwd() / "JDA_Plan_data.xlsx"
-jda_destination = "C:/Users/kendrav/OneDrive - Ecolab/Projects - Pune/Plan Capture Database/Data Repository/"
+jda_destination = "C:/Users/kendrav/OneDrive - colab/Projects - Pune/Plan Capture Database/Data Repository/"
 dest_path = shutil.copy(jda_path,jda_destination)
 print("File Copied to sharepoint path :",dest_path)
 
